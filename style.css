@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-position: fixed;
+    background: linear-gradient(to left bottom, #79e7e2,#a7e7dc); 
+    background-image: url("rosebg.jpg");
+
+}
+.container-1 {
+    background: linear-gradient(to right top, #fab1a0, #f0f4f5);
+    opacity: 0.9;
+     border-radius: 10px;
+    margin:10rem auto;
+    border: 1px solid #ccc;
+    width: 50%;
+    height: 25em;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+.flex-board-container-1{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.flex-board-container-1 div{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+h1{
+    text-transform: capitalize;
+    padding-top: 3%;
+    color: #9e2d2d;
+}
+input[type=date] {
+    width: 50%;
+  padding: 12px 20px;
+  margin: 5em 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.box{
+ display: flex;
+ justify-content: center;
+
+}
+.label{
+    padding: 12px 35px;
+    margin-right: -1px;
+    min-width: 20%;
+    border-radius: 4px;
+    margin-top: 67px;
+    height: 46px ;
+    display: flex;
+   box-sizing: border-box;
+    text-align: left;
+    background-color: #ff7675;
+  border: 1px solid #ccc;
+}
+.btn{
+    margin-top: -3em;
+    border: 2px solid #ccc;
+    height: 3em;
+    width: 9em;
+    background-color: #ff7675;
+    border-radius: 4px;;
+}
+.btn:hover{
+    background-color: #ff5050;
+    border:3px solid #fab1a0;
+}
